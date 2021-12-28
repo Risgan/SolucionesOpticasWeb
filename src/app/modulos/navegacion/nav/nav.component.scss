@@ -4,7 +4,24 @@
 }
 
 .barraMenu{
-    background: #0a476d;
+   // background: #0a476d;
+    display: flex;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    ul {
+        top: 0;
+        display: flex;
+        background: red;
+        //list-style: none;
+        a {
+           margin: 0 .2em;
+           color: inherit;
+           text-decoration: none;
+         }
+      }
 }
 
 /*
